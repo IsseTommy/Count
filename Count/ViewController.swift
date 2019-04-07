@@ -16,12 +16,40 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        label.layer.cornerRadius = 60
+        label.clipsToBounds = true
     }
 
     @IBAction func plus() {
         number = number + 1
-        label.text = String(number)
+        change()
     }
     
+    @IBAction func minus(_ sender: Any) {
+        number = number - 1
+        change()
+    }
+    
+    @IBAction func reset(_ sender: Any) {
+        number = 0
+        change()
+    }
+    
+    //端末を振った時にカウントを増やす。
+    override func motionBegan(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        number = number + 1
+        change()
+    }
+    
+    func change() {
+        if number > 10 {
+            label.textColor = UIColor.red
+        } else if number < 0 {
+            label.textColor = UIColor.blue
+        } else {
+            label.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        }
+        label.text = String(number)
+    }
 }
 
