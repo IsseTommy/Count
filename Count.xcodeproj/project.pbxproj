@@ -14,6 +14,7 @@
 		659D64622259D09300239590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659D64602259D09300239590 /* LaunchScreen.storyboard */; };
 		659D646D2259D09300239590 /* CountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659D646C2259D09300239590 /* CountTests.swift */; };
 		659D64782259D09300239590 /* CountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659D64772259D09300239590 /* CountUITests.swift */; };
+		659D64862259D30200239590 /* 459857.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659D64852259D30200239590 /* 459857.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		659D64732259D09300239590 /* CountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		659D64772259D09300239590 /* CountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUITests.swift; sourceTree = "<group>"; };
 		659D64792259D09300239590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		659D64852259D30200239590 /* 459857.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 459857.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		659D64562259D09200239590 /* Count */ = {
 			isa = PBXGroup;
 			children = (
+				659D64852259D30200239590 /* 459857.jpg */,
 				659D64572259D09200239590 /* AppDelegate.swift */,
 				659D64592259D09200239590 /* ViewController.swift */,
 				659D645B2259D09200239590 /* Main.storyboard */,
@@ -232,6 +235,7 @@
 				659D64622259D09300239590 /* LaunchScreen.storyboard in Resources */,
 				659D645F2259D09300239590 /* Assets.xcassets in Resources */,
 				659D645D2259D09200239590 /* Main.storyboard in Resources */,
+				659D64862259D30200239590 /* 459857.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
